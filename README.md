@@ -5,6 +5,10 @@ Documentation of a self-hosted Jitsi Meet server deployment on Linux.
 
 This repository documents my experience deploying and maintaining a self-hosted Jitsi Meet environment.
 
+## Architecture Diagram
+
+![Jitsi Meet Server Architecture](jitsi-meet-architecture.png)
+
 ## Project Goals
 
 - Deploy a secure video conferencing platform
@@ -53,7 +57,3 @@ Jitsi Meet
     +-- JVB
     |
     +-- Coturn
-
-## Architecture Diagram
-
-![Jitsi Meet Server Architecture](jitsi-meet-architecture.png)
