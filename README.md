@@ -34,3 +34,22 @@ This repository documents my experience deploying and maintaining a self-hosted 
 ## Lessons Learned
 
 This project improved my understanding of Linux server administration, real-time communication platforms, SSL management and system troubleshooting.
+
+## Architecture
+
+Internet
+    |
+    v
+DNS
+    |
+    v
+Nginx
+    |
+    v
+Jitsi Meet
+    |
+    +-- Prosody
+    |
+    +-- JVB
+    |
+    +-- Coturn
