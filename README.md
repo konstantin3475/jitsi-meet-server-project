@@ -53,21 +53,6 @@ Jitsi Meet
     +-- JVB
     |
     +-- Coturn
-
-    flowchart TD
-
-A[Internet]
-B[DNS]
-C[Nginx Reverse Proxy]
-D[Jitsi Meet]
-E[Prosody XMPP Server]
-F[Jitsi Video Bridge JVB]
-G[Coturn STUN/TURN]
-
-A --> B
-B --> C
-C --> D
-
 D --> E
 D --> F
 
