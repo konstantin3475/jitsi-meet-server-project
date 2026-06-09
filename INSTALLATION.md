@@ -35,9 +35,36 @@ sudo apt install curl gnupg2 apt-transport-https -y
 
 Installation steps depend on the Linux distribution and package source used.
 
+During installation, enter the fully qualified domain name of the server.
+
+Example:
+
+```text
+meet.example.com
+```
+Add the Jitsi package repository and install Jitsi Meet.
+
+```bash
+sudo apt install jitsi-meet -y
+```
+
+During installation, enter the fully qualified domain name of the server.
+
+Example:
+
+```text
+meet.example.com
+```
+
+
 ## 6. SSL Certificate
 
 Use Let's Encrypt to secure the installation with HTTPS.
+Jitsi Meet can request a Let's Encrypt certificate automatically.
+
+```bash
+sudo /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
+```
 
 ## 7. Firewall Ports
 
@@ -49,4 +76,14 @@ Typical ports:
 10000 UDP
 3478 UDP
 5349 TCP
+```
+
+## 8. Check Services
+
+After installation, check that the main services are running.
+
+```bash
+systemctl status nginx
+systemctl status prosody
+systemctl status jitsi-videobridge2
 ```
