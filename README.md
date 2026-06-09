@@ -60,4 +60,4 @@ E --> G
 F --> G
 ## Architecture Diagram
 
-[Jitsi Meet Server Architecture](jitsi-meet-architecture.png)
+![Jitsi Meet Server Architecture](jitsi-meet-architecture.png)
