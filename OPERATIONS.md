@@ -21,7 +21,7 @@ journalctl -u jitsi-videobridge2
 ```bash
 sudo apt update
 sudo apt upgrade
-´´´´
+´´´
 
 ## Renew Certificates
 
