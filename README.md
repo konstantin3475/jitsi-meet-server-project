@@ -41,19 +41,26 @@ This project improved my understanding of Linux server administration, real-time
 
 ## Architecture
 
-Internet
-    |
-    v
-DNS
-    |
-    v
-Nginx
-    |
-    v
-Jitsi Meet
-    |
-    +-- Prosody
-    |
-    +-- JVB
-    |
-    +-- Coturn
+The Jitsi Meet setup consists of several services running on a Linux server.  
+Nginx handles HTTPS traffic, Prosody manages XMPP signaling, JVB routes audio and video streams, and Coturn helps clients connect through NAT and firewalls.
+
+# Troubleshooting Notes
+
+This document collects typical issues encountered during the setup and operation of a self-hosted Jitsi Meet environment.
+
+## Typical Issues
+
+- DNS records not pointing to the correct server
+- SSL certificate problems
+- Firewall ports not open
+- Audio or video connection problems
+- NAT traversal issues with Coturn
+- Service restart problems
+
+## Useful Commands
+
+```bash
+systemctl status nginx
+systemctl status prosody
+systemctl status jitsi-videobridge2
+systemctl status coturn
