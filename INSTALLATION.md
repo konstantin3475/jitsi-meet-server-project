@@ -87,4 +87,20 @@ systemctl status nginx
 systemctl status prosody
 systemctl status jitsi-videobridge2
 ```
-Add Jitsi installation and service checks
+
+## 9. Test the Installation
+
+Open the Jitsi Meet URL in a browser.
+
+Example:
+
+```text
+https://meet.example.com
+
+Create a test room and check:
+
+camera access
+microphone access
+screen sharing
+connection from a second device
+connection from a mobile network
