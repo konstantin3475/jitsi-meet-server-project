@@ -20,8 +20,10 @@ meet.example.com -> SERVER_IP_ADDRESS
 
 ## 3. Update the Server
 
+```bash
 sudo apt update
 sudo apt upgrade -y
+```
 
 ## 4. Install Required Packages
 
