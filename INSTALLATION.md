@@ -16,7 +16,6 @@ Create an A record pointing your domain or subdomain to the server IP address.
 
 Example:
 
-```text
 meet.example.com -> SERVER_IP_ADDRESS
 
 ## 3. Update the Server
