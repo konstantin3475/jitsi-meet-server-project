@@ -87,3 +87,4 @@ systemctl status nginx
 systemctl status prosody
 systemctl status jitsi-videobridge2
 ```
+Add Jitsi installation and service checks
