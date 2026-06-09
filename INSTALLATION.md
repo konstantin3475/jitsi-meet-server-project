@@ -27,7 +27,9 @@ sudo apt upgrade -y
 
 ## 4. Install Required Packages
 
+```bash
 sudo apt install curl gnupg2 apt-transport-https -y
+```
 
 ## 5. Install Jitsi Meet
 
@@ -41,8 +43,10 @@ Use Let's Encrypt to secure the installation with HTTPS.
 
 Typical ports:
 
+```text
 80 TCP
 443 TCP
 10000 UDP
 3478 UDP
 5349 TCP
+```
