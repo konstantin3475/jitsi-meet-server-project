@@ -53,11 +53,7 @@ Jitsi Meet
     +-- JVB
     |
     +-- Coturn
-D --> E
-D --> F
 
-E --> G
-F --> G
 ## Architecture Diagram
 
 ![Jitsi Meet Server Architecture](jitsi-meet-architecture.png)
